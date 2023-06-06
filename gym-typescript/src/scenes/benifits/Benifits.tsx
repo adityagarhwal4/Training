@@ -51,7 +51,7 @@ const Benifits = ({ setSelectedPage }: Props) => {
                     className="md:my-5 md:w-3/5"
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: "true", amount: 0.5 }}
+                    viewport={{ once: true, amount: 0.5 }}
                     transition={{ duration: 0.5 }}
                     variants={{
                         hidden: { opacity: 0, x: -50 },
@@ -97,7 +97,7 @@ const Benifits = ({ setSelectedPage }: Props) => {
                                 <motion.div
                                     initial="hidden"
                                     whileInView="visible"
-                                    viewport={{ once: "true", amount: 0.5 }}
+                                    viewport={{ once: true, amount: 0.5 }}
                                     transition={{ duration: 0.5 }}
                                     variants={{
                                         hidden: { opacity: 0, x: 50 },
@@ -114,7 +114,7 @@ const Benifits = ({ setSelectedPage }: Props) => {
                         <motion.div
                             initial="hidden"
                             whileInView="visible"
-                            viewport={{ once: "true", amount: 0.5 }}
+                            viewport={{ once: true, amount: 0.5 }}
                             transition={{ delay:0.2, duration: 0.5 }}
                             variants={{
                                 hidden: { opacity: 0, x: 50 },
